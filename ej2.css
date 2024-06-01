@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to bottom,#4d98db, #000);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    background-color: #eaeaea;
+    padding: 10px;
+}
+
+header, main{
+    margin: 0 auto;
+    width: 1000px;
+}
+
+header{
+    background-image: url(montaña.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120px;
+    h3{
+        color: white;
+        text-transform: lowercase;
+        font-size: 2em;
+    }
+}
+
+.caja-derecha{
+    width: 300px;
+    float: right;
+    margin: 0px;
+    padding: 0px 20px 0px 0px;
+    color: #787878;
+    
+    ul{
+        list-style: circle;
+
+        li{
+            line-height: 30px;
+            margin: 0px 30px;
+            padding: 0px 30px;
+            border-left: none;
+            
+            a{
+                color: #4D4D4D;
+            }
+        }
+    }
+    
+    h2{
+        height: 32px;
+        padding-left: 30px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #D6D6D6;
+        letter-spacing: -.5px;
+        font-size: 1.8 em;
+        color: #696969;
+        background-image:  url(./img08.jpg);
+        background-repeat: no-repeat;
+        background-position: left 4px;
+    }
+}
+
+.caja-izquierda{
+    width: 618px;
+    float: left;
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.post{
+    border-bottom: 1px dotted #E7E2DC;
+    border-top: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    background: linear-gradient(to bottom, #ececec, #ffffff);
+
+    h3{
+    letter-spacing: -.5px;
+    padding: 20px 10px 0px 30px;
+    font-size: 30px;
+    }
+
+    p{
+        padding: 0px 30px 20px 30px;
+        padding-bottom: 20px;
+        text-align: justify;
+    }
+}
+
+#both{
+    clear: both;
+}
+
+.datos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 30px 20px 30px;
+}
